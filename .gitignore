@@ -2,3 +2,5 @@
 /Temp/
 /*.csproj
 /*.sln
+/*.pidb
+/*.userprefs
