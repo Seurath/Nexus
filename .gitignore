@@ -1,6 +1,7 @@
+/*.csproj
+/*.pidb
+/*.unityproj
+/*.sln
+/*.userprefs
 /Library/
 /Temp/
-/*.csproj
-/*.sln
-/*.pidb
-/*.userprefs

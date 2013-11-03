@@ -109,7 +109,7 @@ public class OVRCamera : OVRComponent
 			CameraTexture = new RenderTexture(  w, h, 24);
 			
 			// Use MSAA settings in QualitySettings for new RenderTexture
-			// CameraTexture.antiAliasing = QualitySettings.antiAliasing; // TODO: Uncomment after updating to Unity 4.2.2
+			CameraTexture.antiAliasing = QualitySettings.antiAliasing;
 		}
 	}
 
