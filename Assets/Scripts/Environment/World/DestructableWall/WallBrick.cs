@@ -41,7 +41,7 @@ public class WallBrick : MonoBehaviour {
 		if(collisionInfo.gameObject.CompareTag("Fist") && collisionInfo.relativeVelocity.sqrMagnitude > destructionThreshold * destructionThreshold)
 		{
 			Punched ();
-			rigidbody.AddForce (collisionInfo.impactForceSum);
+			rigidbody.AddForce (collisionInfo.relativeVelocity);
 		}
 	}
 	

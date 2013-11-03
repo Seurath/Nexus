@@ -4,8 +4,8 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class PlaneAudioController : MonoBehaviour
 {
-	[SerializeField] private AudioSource engineHum;
-	[SerializeField] private AudioSource bulletSound;
+	[SerializeField] private AudioSource engineHum = null;
+	[SerializeField] private AudioSource bulletSound = null;
 	
 	public void PlayBulletSound ()
 	{

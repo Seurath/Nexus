@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlaneController : MonoBehaviour
 {
-	[SerializeField] private PlaneAudioController audioController;
+	[SerializeField] private PlaneAudioController audioController = null;
 	
 	public bool xboxMode;
 	

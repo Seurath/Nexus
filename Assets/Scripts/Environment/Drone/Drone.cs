@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Drone : MonoBehaviour
 {
-	[SerializeField] private DroneAudioController audioController;
+	[SerializeField] private DroneAudioController audioController = null;
 	
 	public GameObject target;
 	public float rotationRate;

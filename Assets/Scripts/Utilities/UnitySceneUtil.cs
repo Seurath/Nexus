@@ -42,7 +42,7 @@ public static class UnitySceneUtility
 	
 	public static void DestroyChildren (Transform parentTransform)
 	{
-		for (int i = 0; i < parentTransform.GetChildCount(); i++) 
+		for (int i = 0; i < parentTransform.childCount; i++) 
 		{
 			GameObject.Destroy(parentTransform.GetChild(i).gameObject);
 		}

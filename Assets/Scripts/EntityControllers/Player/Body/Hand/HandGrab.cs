@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class HandGrab : MonoBehaviour {
 	
-	[SerializeField] private AudioSource grabSound;
+	[SerializeField] private AudioSource grabSound = null;
 	
 	public List<Transform> itemsInReach = new List<Transform>();
 	public List<Transform> heldItems = new List<Transform>();

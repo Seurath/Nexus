@@ -4,8 +4,8 @@ using System.Collections;
 public class DroneAudioController : MonoBehaviour
 {
 
-	[SerializeField] private AudioSource bulletSound;
-	[SerializeField] private AudioSource deathSound;
+	[SerializeField] private AudioSource bulletSound = null;
+	[SerializeField] private AudioSource deathSound = null;
 	
 	public void PlayBulletSound ()
 	{
