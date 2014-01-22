@@ -59,7 +59,7 @@ public class OVRCameraControllerEditor : Editor
 	{
 		GUI.color = Color.white;
 		
-		Undo.SetSnapshotTarget(m_Component, "OVRCameraController");
+		Undo.RecordObject(m_Component, "OVRCameraController");
 
 		{
 #if CUSTOM_LAYOUT
